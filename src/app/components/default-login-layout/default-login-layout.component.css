@@ -28,11 +28,31 @@ main{
 
     .form-section{
         flex-grow: 0.4 ;
+
+        padding: 0 30px;
         
         h2{
             font-size: 20px;
-            font-weight: bold;
-            
+            font-weight: bold;   
+        }
+
+        button {
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            background-color: transparent;
+
+            &.btn-primary{
+                background-color: rgb(212, 190, 207);
+                color: white;
+            }
+            &.btn-secundary{
+                background-color: rgb(212, 190, 207);
+                color: white;
+            }
+
         }
         
 
